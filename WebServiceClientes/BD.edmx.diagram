@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="03005ba9c9b94d178014505a1f910482" Name="Diagram1">
+        <EntityTypeShape EntityType="CAR_CENTERModel.Cliente" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.Factura" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.Mecanico" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.Repuesto" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.Repuestos_utilizados" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.Servicio" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.Servicios_realizados" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAR_CENTERModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="CAR_CENTERModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="CAR_CENTERModel.FK_Factura_Mecanico" ManuallyRouted="false" />
+        <AssociationConnector Association="CAR_CENTERModel.FK_Factura_Repuestos_utilizados" ManuallyRouted="false" />
+        <AssociationConnector Association="CAR_CENTERModel.FK_Factura_Servicios_realizados" ManuallyRouted="false" />
+        <AssociationConnector Association="CAR_CENTERModel.FK_Repuestos_utilizados_Repuesto" ManuallyRouted="false" />
+        <AssociationConnector Association="CAR_CENTERModel.FK_Servicios_realizados_Servicio" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
